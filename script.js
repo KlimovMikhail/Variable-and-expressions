@@ -67,6 +67,5 @@ let str = prompt("","Мне нравится изучать Front-End");
 let mystr = prompt("", "English");
 console.log(str.includes('English'));
 let substr = str.substring(0, 21);
-console.log(substr);
 let result = `${substr} ${mystr}`;
 alert(result);
